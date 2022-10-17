@@ -207,6 +207,12 @@ img {
 }
 
 @media (max-width:500px) {
+
+  .toggle {
+    padding-top: 50px;
+  }
+
+
   .name {
     display: flex;
     flex-direction: column;
@@ -221,11 +227,15 @@ img {
   .timer {
     flex-direction: column;
     align-items:center;
+    margin: 20px;
   }
 
   .timer_content {
     padding-top: 10px;
   }
   
-
+  .w_line{
+    margin-top: 50px;
+    
+  }
 }
