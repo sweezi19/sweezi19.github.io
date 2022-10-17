@@ -83,14 +83,13 @@ body.light {
 
 .container {
   margin: 0 auto;
-  width: 900px;
-  height: 400px;
-  padding-top: 100px;
+  max-width: 900px;
 }
 
 
 
 .name {
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   margin-top: 0px;
@@ -105,8 +104,15 @@ body.light {
   color: #191919;
 }
 
+.time {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+
  .animation_block {
-  padding-left: 7px;
+  display: inline-block;
+  padding: 0 3px 0 10px;
   padding-top: 27px;
 }
 
@@ -198,4 +204,28 @@ img {
 
 .w_line.black {
   background-color:#191919;
+}
+
+@media (max-width:500px) {
+  .name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  
+  }
+
+  .time {
+    padding-left: 10px;
+  }
+
+  .timer {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .timer_content {
+    padding-top: 10px;
+  }
+  
+
 }
