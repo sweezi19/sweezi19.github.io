@@ -209,14 +209,15 @@ img {
 @media (max-width:500px) {
 
   .toggle {
-    padding-top: 5vh;
+    padding-top: 0vh;
+    margin: 5vw;
   }
 
 
   .name {
     display: flex;
     flex-direction: column;
-    padding-top:2vh;  
+    padding-top:0vh;  
   }
 
   .time {
@@ -229,7 +230,7 @@ img {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding-top: vh;
+    margin: 5vw;
   }
 
   .timer_content {
@@ -238,7 +239,7 @@ img {
 
   
   .w_line{
-    margin-top: 3vh;
+    margin-top: 7vh;
     
   }
 }
