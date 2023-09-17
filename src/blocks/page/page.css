@@ -3,11 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   min-width: 320px;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   background: transparent;
-  /* background-color: #191919; */
-  /* transition: background-color 0.3s linear; */
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
