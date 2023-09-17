@@ -1,0 +1,4 @@
+.name__paragraph_animated {
+  animation: flash 6s linear infinite;
+  margin-left: 7px;
+}

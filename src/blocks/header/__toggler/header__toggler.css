@@ -1,0 +1,9 @@
+.header__toggler {
+  display: flex;
+  flex-direction: row;
+	align-items: center;
+	justify-content: center;
+  transform: scale(0.75);
+  position: relative;
+}
+

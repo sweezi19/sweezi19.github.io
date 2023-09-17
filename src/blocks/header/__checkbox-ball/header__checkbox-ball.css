@@ -1,0 +1,20 @@
+.header__checkbox-ball {
+  background-color: #191919;
+	border-radius: 50%;
+	position: absolute;
+	top: -3px;
+	left: -11px;
+	height: 37px;
+	width: 37px;
+	transform: translateX(0px);
+	transition: transform 0.3s linear;
+  transition: all 0.3s linear;
+	isolation: isolate;
+	cursor: pointer;
+}
+.header__checkbox-ball::before {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  z-index: -1;
+}

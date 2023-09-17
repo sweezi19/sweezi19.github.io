@@ -1,0 +1,12 @@
+.header__checkbox-label {
+  background-color: #6fadff;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	height: 22px;
+	width: 50px;
+	transform: scale(1.5);
+  transition: all 0.3s linear;
+}

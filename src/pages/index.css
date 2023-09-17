@@ -1,0 +1,52 @@
+/*VENDOR*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/animate/animate.min.css);
+@import url(../vendor/font-awesome/css/all.min.css);
+@import url(../vendor/fonts/fonts.css);
+
+/*BODY*/
+@import url(../blocks/body/body.css);
+@import url(../blocks/body/_theme_light/body_theme_light.css);
+
+/*PAGE*/
+@import url(../blocks/page/page.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__toggler/header__toggler.css);
+@import url(../blocks/header/__checkbox/header__checkbox.css);
+@import url(../blocks/header/__checkbox-ball/header__checkbox-ball.css);
+@import url(../blocks/header/__checkbox-ball/_checked/header__checkbox-ball_checked.css);
+@import url(../blocks/header/__checkbox-label/header__checkbox-label.css);
+@import url(../blocks/header/__checkbox-label/_checked/header__checkbox-label_checked.css);
+/*FA*/
+@import url(../blocks/fa/fa-moon.css);
+@import url(../blocks/fa/fa-sun.css);
+
+/*CONTENT*/
+@import url(../blocks/content/content.css);
+/*NAME*/
+@import url(../blocks/name/name.css);
+@import url(../blocks/name/_theme_light/name_theme_light.css);
+@import url(../blocks/name/__paragraph/name__paragraph.css);
+@import url(../blocks/name/__paragraph/_animated/name__paragraph_animated.css);
+@import url(../blocks/name/__time/name__time.css);
+/*TIMER*/
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer/__content/timer__content.css);
+@import url(../blocks/timer/__numbers/timer__numbers.css);
+@import url(../blocks/timer/__numbers/_theme_light/timer__numbers_theme_light.css);
+@import url(../blocks/timer/__title/timer__title.css);
+@import url(../blocks/timer/__title/_theme_light/timer__title_theme_light.css);
+
+/*FOOTER*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+/*ICON*/
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/__instagram/icon__instagram.css);
+@import url(../blocks/icon/__instagram/_theme_light/icon__instagram_theme_light.css);
+@import url(../blocks/icon/__facebook/icon__facebook.css);
+@import url(../blocks/icon/__facebook/_theme_light/icon__facebook_theme_light.css);
+@import url(../blocks/icon/__linkedin/icon__linkedin.css);
+@import url(../blocks/icon/__linkedin/_theme_light/icon__linkedin_theme_light.css);

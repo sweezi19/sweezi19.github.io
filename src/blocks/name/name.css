@@ -1,0 +1,14 @@
+.name {
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    flex-direction: row;
+  }  
+}

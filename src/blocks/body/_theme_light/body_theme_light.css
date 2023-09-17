@@ -1,0 +1,4 @@
+.body_theme_light {
+  background-color: white;
+  transition: background-color 0.3s linear;
+}

@@ -1,0 +1,11 @@
+.timer__numbers {
+  font-weight: 700;
+  font-size: 30px;
+  background-color: white;
+  color:#191919;
+  transition: all 0.3s linear;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 20px 0 10px;
+  transition: all 0.3s linear;
+}

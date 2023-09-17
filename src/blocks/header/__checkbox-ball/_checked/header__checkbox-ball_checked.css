@@ -1,0 +1,5 @@
+.header__checkbox-ball_checked {
+  transform: translateX(44px);
+  transition: all 0.3s linear;
+  background-color: white;
+}

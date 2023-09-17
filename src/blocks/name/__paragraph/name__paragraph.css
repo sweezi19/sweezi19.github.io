@@ -1,0 +1,16 @@
+.name__paragraph {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 100%;
+  font-size: 80px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 425px) {
+  .name__paragraph {
+    flex-direction: row;
+    font-size: 100px;
+  }  
+}
