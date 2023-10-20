@@ -10,12 +10,11 @@ export const timerNumbers = document.querySelectorAll('.timer__numbers');
 export const timerTitles = document.querySelectorAll('.timer__title');
 export const days = document.getElementById('days');
 export const hours = document.getElementById('hours');
-export const minutes = document.getElementById('minutes');
+export const minutes = document.getElementById('minutes'); 
 export const seconds = document.getElementById('seconds');
 // FOOTER
-export const iconInstagram = document.querySelector('.icon__instagram');
-export const iconFacebook = document.querySelector('.icon__facebook');
-export const iconLinkedin = document.querySelector('.icon__linkedin');
+export const footer = document.querySelector('.footer')
+export const footerLinks = document.querySelectorAll('.footer__link')
 // DATE & TIME
 export const deathDate = '2022-02-24';
 export const currentHours = new Date().getHours();

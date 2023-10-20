@@ -41,6 +41,12 @@
 
 /*FOOTER*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_theme_light/footer_theme_ligth.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_theme_light/footer__link_theme_light.css);
+
+
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 /*ICON*/
 @import url(../blocks/icon/icon.css);

@@ -5,9 +5,8 @@ import {
   contentName,
   timerNumbers,
   timerTitles,
-  iconInstagram,
-  iconFacebook,
-  iconLinkedin
+  footer,
+  footerLinks
 } from "../utils/constants.js";
 import { setZero } from "./clockSetter.js";
 
@@ -19,9 +18,8 @@ export function switchTheme () {
   contentName.classList.toggle('name_theme_light');
   timerNumbers.forEach(number => number.classList.toggle('timer__numbers_theme_light'));
   timerTitles.forEach(title => title.classList.toggle('timer__title_theme_light'));
-  iconInstagram.classList.toggle('icon__instagram_theme_light');
-  iconFacebook.classList.toggle('icon__facebook_theme_light');
-  iconLinkedin.classList.toggle('icon__linkedin_theme_light');
+  footer.classList.toggle('footer_theme_light');
+  footerLinks.forEach(link => link.classList.toggle('footer__link_theme_light'))
 }
 // THEME SETTER
 export function setTheme (currentHours, currentMinutes, sunriseTime, sunsetTime) {
