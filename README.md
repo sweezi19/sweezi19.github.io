@@ -16,8 +16,8 @@ https://ststas.github.io/projects/wartimer/
 ### Stanislav Zaitsev x Fyodor Sweezy
 
 ### Powered By:
-* https://api.sunrise-sunset.org
-* https://api.ipgeolocation.io
+* https://sunrise-sunset.org/
+* https://ipgeolocation.io
 
 
 # ПРОЕКТ WAR TIMER
@@ -38,5 +38,5 @@ https://ststas.github.io/projects/wartimer/
 ### Станислав Зайцев х Fyodor Sweezy
 
 ### Powered By:
-* https://api.sunrise-sunset.org
-* https://api.ipgeolocation.io
+* https://sunrise-sunset.org/
+* https://ipgeolocation.io
