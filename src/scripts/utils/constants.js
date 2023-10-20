@@ -20,5 +20,3 @@ export const iconLinkedin = document.querySelector('.icon__linkedin');
 export const deathDate = '2022-02-24';
 export const currentHours = new Date().getHours();
 export const currentMinutes = new Date().getMinutes();
-
-// export const currentTime = `${new Date().getHours()}:${new Date().getMinutes()}`
